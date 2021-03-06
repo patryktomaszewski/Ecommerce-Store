@@ -1,4 +1,6 @@
-{% extends '../base.html' %} {% load static %} {% block title %}Home{% endblock%}
+{% extends "../base.html" %} {% load static %} {% block title %} {% if category
+%}{{ category.name }}{% else %}Products{% endif %} {% endblock %} {% block
+content %}
 <main>
   {% block content %}
   <section class="py-5 text-center container">

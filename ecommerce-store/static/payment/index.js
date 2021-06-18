@@ -85,4 +85,3 @@ var postCode = document.getElementById("postCode").value;
 
 
 });
-© 2021 GitHub, Inc.

@@ -1,8 +1,9 @@
-from django.urls import include, path
-from . import views
 from django.contrib.auth import views as auth_views
-from .forms import (UserLoginForm, PwdResetForm, PwdResetConfirmForm)
+from django.urls import include, path
 from django.views.generic import TemplateView
+
+from . import views
+from .forms import PwdResetConfirmForm, PwdResetForm, UserLoginForm
 
 app_name = 'account'
 

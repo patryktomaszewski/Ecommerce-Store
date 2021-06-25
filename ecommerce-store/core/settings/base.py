@@ -41,9 +41,9 @@ INSTALLED_APPS = [
     'store',
     'basket',
     'account',
-    'payment',
     'orders',
     'mptt',
+    'checkout',
 ]
 
 MIDDLEWARE = [
@@ -146,8 +146,3 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Basket session ID
 BASKET_SESSION_ID = 'basket'
 
-# Stripe Payment
-# PUBLISHABLE_KEY = ''
-# SECRET_KEY = ''
-# STRIPE_ENDPOINT_SECRET = ''
-# stripe listen --forward-to localhost:8000/payment/webhook/
